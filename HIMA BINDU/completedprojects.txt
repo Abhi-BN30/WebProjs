@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style type= "text/css">
+
+h1{font-family:book antiqua}
+h2{font-family:agency fb}
+
+body{background-image: url("background.jpg"); background-size: 100% 100% ; background-repeat : no repeat ; background-attachment : fixed}
+
+</style>
+</head>
+
+<body>
+<center>
+
+&ensp;&ensp;<img src = "HBlogo4.jpg" width= "150" length="375">
+
+<br><br><br>
+
+<div style = "background-color:white;color:black;padding:1px">
+<h1>WE ARE VERY SORRY!!!!</h1>
+</div>
+
+<br><br><br><br>
+
+<div style = "background-color:white;color:black;padding:1px">
+<h2>No projects to show</h2> </div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>><br><br><br><br>><br><br><br><br>
+
+</center>
+
+<div style = "background-color:black;color:white;padding:1px">
+<h6><span style = "font-family : agency fb">Developed By : ABHILASH B N V S</span></h6>
+</div>
+
+</body>
+</html>

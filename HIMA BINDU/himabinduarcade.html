@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style type = "text/css">
+
+body{background-image: url("background.jpg"); background-size: 100% 100% ; background-repeat : no-repeat ; background-attachment : fixed}
+
+h1{font-family:imprint mt shadow; color: black;font-size:35pt}
+h2{font-family: ;color:white;font-size:20pt}
+h3{font-family: ;color:teal;font-size:18pt}
+h4{font-family: ;color:white;font-size:15pt}
+
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: white;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+</style>
+</head>
+
+<body>
+<center>
+
+&ensp;&ensp;<img src = "HBlogo4.jpg" width= "150" length="375">
+
+<div style = "background-color:#ffffff75">
+<h1> HIMA BINDU ARCADE</h1></div><br>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade" style = " background-color:#00000075 ">
+  <h3><div class="numbertext">1 / 4</div></h3>
+  <img src="WhatsApp Image HIMA.jpg" style=" width:20%">
+  <h3><div class="text" style = "font-family:comic sans ms; color: white">Please click on the next button to view other images and for a bigger view please open it in a new tab.</div></h3>
+</div>
+
+<div class="mySlides fade" style = " background-color:#00000075 ">
+  <h3><div class="numbertext">2 / 4</div></h3>
+  <img src="WhatsApp Image HIMA2.jpeg" style= "width : 38.5%">
+</div>
+
+<div class="mySlides fade" style = " background-color:#00000075 ">
+  <h3><div class="numbertext">3 / 4</div></h3>
+  <img src="HBA2.jpg" style="width : 18.1%">
+</div>
+
+<div class="mySlides fade" style = " background-color:#00000075 " >
+  <h3><div class="numbertext">4 / 4</div></h3>
+  <img src="HBA3.jpg" style="width:20.55%">
+</div>
+
+<div style = "background-color:#00000075 ">
+<h1><span style = "color:gold"><a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a></span><h1>
+</div>
+
+</div>
+
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</center>
+
+<h2><span style = "color:gold"><u>AMENITIES:</u></span></h2>
+
+<h3><div style = "background-color: #ffffff85;color:black;padding:1px">
+<span style = "color:grey">To know about the amenities please go to the last image in the slideshow above.</span>
+</h3></div>
+
+<h2><span style = "color:gold"><u>ACCESS TO:</u></span></h2>
+
+<ul>
+<div style = "background-color : white ; color : black ;  width :375px">
+<h3><u>EDUCATIONAL INSTITUTIONS:</u></h3>
+</div>
+
+<div style = "background-color: #00000075 ; width:280px">
+<h4><li>Sindhi High School - 0.35km</li>
+<li>Vidyaniketan School - 0.5km</li>
+<li>Jain Heritage School - 0.5km</li>
+<li>Sindhi PU College - 0.35km</li>
+<li>Presidency PU College - 0.35km</li></h4>
+</div>
+<br>
+
+<div style = "background-color  : white ; color : black ; width : 325px">
+<h3><u>ENTERTAINMENT & FOOD:</u></h3>
+</div>
+<div style = "background-color: #00000075; width:275px">
+<h4><li>Esteem Mall - 0.8 km</li>
+<li>Swathi Gardenia- 2.3 km</li>
+<li>Kritunga Restaurant- 2.35 km</li>
+<li>Nandhana Restaurant- 2.5 km </li>
+<li>Attide Biz - 2.3 km </li></h4>
+</div>
+<br>
+
+<div style = "background-color : white ; color : black ; width : 155px ">
+<h3><u>TRANSPORT:</u></h3>
+</div>
+<div style = "background-color: #00000075; width:480px">
+<h4><li>International Airport(KIA)- 27.3 km </li>
+<li>Upcoming Metro Station(Stop-Thanisandra <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp&nbspRoute:Airport-)- 4.2 - 5.0 km</li>
+<li>Yelhanka Railway Station- 8.9 km</li>
+<li>Hebbal Bus Stand - 1.5 km</li></h4></ul>
+</div> 
+
+<center>
+
+<div style ="background-color : #ffffff75 ; width : 400px">
+<h2><span style = "color:black ">ROUTE MAP</span></h2></div>
+<img src = "map.jpg" width = "500"></center>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<div style = "background-color:black;color:white; padding : 1px">
+<h5><span style = "font-family : agency fb"> &emsp;Developed By : ABHILASH B N V S</span></h5>
+</div>
+</body>
+</html>

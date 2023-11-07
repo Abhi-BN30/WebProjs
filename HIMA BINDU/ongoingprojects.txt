@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style type = "text/css">
+
+a:link{font-family : algerian ; font-size : 22pt ; color : teal  }
+a:visited{font-family : algerian ; font-size : 22pt ; color : teal}
+a:hover{font-family : algerian ; font-size : 25pt  ; color : black}
+a:active{font-family : algerian ; font-size : 22pt ; color : black}
+
+.button{background-color : white ;
+               transition-duration : 0.8s}
+.button:hover{background-color : white}
+
+h1{font-family : agency fb ; color :  #F5AD28 ; font-size : 30pt } 
+h3{font-family : comic sans ms ; color : grey }
+h5{font-family : agency fb ; color : white}
+
+body{background-image : url("background.jpg") ;
+           background-size : 100% 100% ; background-repeat : no repeat ; background-attachment : fixed}
+
+</style>
+</head>
+
+<body>
+<center>
+
+<img src = "HBlogo4.jpg" width = "150" length = "175">
+
+<h1><u>ONGOING PROJECTS</u></h1>
+
+<div style = "background-color : white ; padding : 10px">
+<a class = "button" href = "himabinduarcade.html" style = "text-decoration : none">1) HIMA BINDU ARCADE </a>
+
+<h3>Near Esteem Mall <br> Bengaluru-560024</h3>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</center>
+
+<div style = "background-color : black ; padding : 1px">
+<h5>Developed By : ABHILASH B N V S</h5>
+</div>
+
+</body>
+</html>
+
+

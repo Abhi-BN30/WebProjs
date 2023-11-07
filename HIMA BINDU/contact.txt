@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style type = "text/css">
+body{background-image: url("background.jpg"); background-size: 100% 100% ; background-repeat ; no repeat ; background-attachment : fixed}
+
+h1{color:#F5AD28; font-family:agency fb}
+h2{color:teal; font-family:gabriola}
+
+</style>
+
+<body>
+<center>
+
+<img src = "HBlogo4.jpg" width ="150" length = "175">
+
+<h1><u>OUR CONTACT</u></h1>
+
+<div style = "background-color:white;color:black; padding:1px">
+<h2>PHONE :- 9019345494</h2>
+</div>
+
+<br><br><br>
+
+<div style = "background-color:white;color:black; padding:1px">
+<h2>eMAIL :- &nbsp********@gmail.com</h2>
+</div>
+
+<br><br><br>
+
+<div style = "background-color:white;color:black; padding:1px">
+<h2>ADDRESS :- __________________ <br> &emsp;&emsp;&ensp; ________</h2>
+</div>
+</center>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<div style = "background-color:black;color:white; padding : 1px">
+<h6><span style = "font-family : agency fb" &emsp;Developed By : ABHILASH B N V S</span></h6>
+</div>
+
+</body>
+</html>

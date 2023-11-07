@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Hima Bindu Developers</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style type = "text/css">
+
+a:link{color: black ;font-family:agency fb;font-size:20pt;}
+a:visited{color: black ;font-family:agency fb;font-size:20pt;}
+a:hover{color: grey ;font-family:agency fb;font-size:24pt;}
+a:active{color: grey;font-family:agency fb;font-size:20pt}
+
+h3{color:blue}
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: black;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+body{background-image : url("background.jpg") ;
+           background-position: fixed; background-size : 100% 100% ; background-repeat : no repeat ; background-attachment : fixed}
+
+.button{background-color : white ; 
+               transition-duration : 0.4s ;
+               border-radius : 150px }
+.button:hover{background-color : white }
+
+</style>
+</head>
+
+<body>
+<center>
+
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<img src = "HBlogo4.jpg" width= "150" length="375">
+
+<h1>______________________________________________________</h1>
+<ul>
+
+<div class="w3-container w3-center w3-animate-left">
+    <div style = "background-color:white;color:black; padding : 1px">
+    <li><a class = "button" style = "text-decoration:none" href = "aboutus.html" target = "_parent">ABOUT     US</a></div></li><br>
+</div>
+
+<div style = "background-color:white;color:black; padding : 1px">
+<li><a class = "button" style = "text-decoration:none" href = "ongoingprojects.html" target = "_parent">ONGOING PROJECTS </a></li></div><br>
+
+<div style = "background-color:white;color:black; ">
+<li><a class = "button" style = "text-decoration:none" href = "completedprojects.html" target="_parent">COMPLETED/READY FOR POSSESION PROJECTS</a></li></div><br>
+
+<div style = "background-color:white;color:black; padding : 1px">
+<li><a class = "button" style = "text-decoration:none" href = "contact.html" target="_parent">CONTACT US</a></li></div></ul>
+
+</center>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<div style = "background-color:black;color:white; padding : 1px">
+<h6><span style = "font-family : agency fb"> &emsp;Developed By : ABHILASH B N V S</span></h6>
+</div>
+
+</body>
+</html>
